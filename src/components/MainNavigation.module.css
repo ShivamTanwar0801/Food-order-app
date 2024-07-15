@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll{
+  background-color: #614c24;
+  position: fixed;
+  top: 0;
+}
+
+.list {
+  display: flex;
+  padding-inline-start: 0;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+}
+
+.list a:hover,
+.list a.active {
+  color: rgb(255, 128, 0);
+  text-decoration: underline;
+}
+
+a.disabled {
+  color: gray;
+  pointer-events: none;
+}

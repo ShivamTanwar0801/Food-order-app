@@ -1,0 +1,44 @@
+.header {
+  margin: 3rem 10%;
+  cursor: pointer;
+  width: fit-content;
+
+  .title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    img {
+      width: 4rem;
+      height: 4rem;
+      object-fit: contain;
+      border-radius: 50%;
+      border: 2px solid #ffc404;
+    }
+  }
+}
+
+.orders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.orderslist {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+  max-width: 80rem;
+  min-width: 30rem;
+  width: 100%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  gap: 16px;
+}
+
+.noorders{
+  text-align: center;
+}

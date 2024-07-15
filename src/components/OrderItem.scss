@@ -1,0 +1,58 @@
+.order {
+  background-color: #e4ddd4;
+  color: black;
+  max-width: 80rem;
+  min-width: 30rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px #a8acac solid;
+  min-height: 250px;
+  height: 100%;
+}
+
+.customer {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c4b8a8;
+  border-radius: 8px 8px 0 0;
+  line-height: 6px;
+
+  h2 {
+    position: relative;
+    top: -10px;
+    left: 8px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    color: #333333;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+.orderdetails {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 180px;
+  height: 100%;
+
+  span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    padding: 0 16px 16px 0;
+    font-weight: bolder;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
